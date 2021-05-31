@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap');
+
+
+* { 
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    
+    background-color: #00BFFF;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+header h1 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    color: #FFFAFA;
+    letter-spacing: 0.2rem;
+
+}
+
+.app {
+
+  width: 100vw;
+  height: 100vh;
+  background-color:#00BFFF;
+  position: relative;
+
+}
+
+.container {
+
+    position: absolute; 
+     
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 300px;    
+    top: 4rem;
+    /* transform: translateY(-20%) */
+
+  
+} 
+
+
+
+.container input {
+   
+    border-radius: 4px;
+    width: 215px;
+    margin-bottom: 0.5rem;
+    padding: 0.2rem;
+   
+}
+
+
+.container ul {
+    list-style: none;    
+    
+}
+
+.container ul li {
+    color: #2F4F4F;
+
+}
+
+.remove {
+
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #ff5050;
+    border: none;
+    border-radius: 4px;
+    margin: 0.4rem 0.4rem;
+}
+
+.remove:hover {
+    color: #ff5050;;
+    font-weight: bold;
+    background-color: #FFFAFA;
+}
+ 
+#item-button {
+   
+    border-radius: 4px;
+    padding: 0.2rem;
+    background-color:#006400;
+    color: #FFFAFA;
+} 
+
+#item-button:hover {
+    background-color: #FFFAFA;
+    color:#064b06;
+    font-weight: bold;
+}

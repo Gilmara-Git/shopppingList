@@ -21,7 +21,7 @@ function createItemList(){
     ul.appendChild(li);
     inputField.value = "";
     buttonEvents(); 
-    // como esta funcao que carrega os eventos, entao apos colocar as
+    // funcao que carrega os eventos, entao apos colocar as
     // listas na 'ul' foi preciso  chamar esta funcao 'aqui' para que os eventos carreguem 
     // para estas novas listas criadas
 
@@ -34,11 +34,7 @@ function buttonEvents(){
         removeButton.addEventListener("click", removeItemList, false);
     })
 
-    // A Mari fez esta funcao assimL:
-    /* for (let i=0, i < removeButtons.length, i++){
-        removeButtons[1].addEventListener("click", removeItemList, false)
-    }
-}*/
+    
 }
 
 function removeItemList(){
